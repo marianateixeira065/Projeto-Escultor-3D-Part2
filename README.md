@@ -1,4 +1,4 @@
-# Projeto Escultor 3D - Parte 1
+# Projeto Escultor 3D - Parte 2
 
 Este é um projeto desenvolvido em **C++** que funciona como uma ferramenta para a criação de esculturas tridimensionais baseadas em blocos (semelhante à lógica do Minecraft). O programa manipula uma matriz tridimensional digital onde cada bloco é chamado de **Voxel** (volume element).
 
