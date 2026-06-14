@@ -23,7 +23,7 @@ int main() {
         return 1;
     }
 
-    // Cria a nossa lista de "pincéis" polimórficos
+    // Cria a lista de "pincéis" polimórficos
     vector<FiguraGeometrica*> figuras;
     Sculptor *cena = nullptr;
     string comando;
@@ -33,7 +33,7 @@ int main() {
         if (comando == "dim") {
             int nx, ny, nz;
             fin >> nx >> ny >> nz;
-            // Aloca a nossa tela de pintura com os tamanhos lidos
+            // Aloca a tela de pintura com os tamanhos lidos
             cena = new Sculptor(nx, ny, nz);
         } 
         else if (comando == "putvoxel") {
@@ -80,7 +80,7 @@ int main() {
 
     // Se o Sculptor foi criado com sucesso na instrução "dim"
     if (cena != nullptr) {
-        // A magia do Polimorfismo: passa por toda a lista e pede para cada um se desenhar!
+        // Polimorfismo: passa por toda a lista e pede para cada um se desenhar
         for (int i = 0; i < figuras.size(); i++) {
             figuras[i]->draw(*cena);
         }
