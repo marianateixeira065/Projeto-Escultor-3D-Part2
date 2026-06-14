@@ -1,4 +1,4 @@
-# Projeto Escultor 3D - Parte 2 (Programação Orientada a Objetos)
+# Projeto Escultor 3D - Parte 2 
 
 Este repositório contém a **Parte 2** do projeto Escultor 3D, desenvolvido em **C++**. Nesta etapa, a arquitetura do programa evoluiu de uma abordagem procedural para uma **Arquitetura de Orientação a Objetos Avançada**.
 
